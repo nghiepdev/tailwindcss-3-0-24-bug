@@ -2,13 +2,13 @@ body {
   @apply text-red-500;
 
   @media (max-width: 1000px) {
-    div {
-      @apply text-green-500;
-    }
     @apply text-green-500;
+    div {
+      @apply text-blue-500;
+    }
   }
 
   div {
-    @apply text-gray-50;
+    @apply text-yellow-50;
   }
 }
