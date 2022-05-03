@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "tailwindcss -i ./main.css -o ./output.css --watch --postcss ./postcss.config.js"
+  },
   "devDependencies": {
     "postcss": "^8.4.13",
     "tailwindcss": "^3.0.24"
